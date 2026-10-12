@@ -77,37 +77,6 @@ function createBot() {
 
 createBot();
 
-
-
-
-
-
-
-
-
-
-NOMBRE DEL SEGUNDO ARCHIVO: .github/workflows/afk.yml
-CÓDIGO DEL SEGUNDO ARCHIVO:
-
-
-
-
-
-
-name: Minecraft NPC Bot 24/7
-
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch: # Permite encender el NPC de forma manual desde el panel web
-
-jobs:
-  run-bot:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Clonar repositorio
-      uses: actions/checkout@v4
-
     - name: Configurar Node.js
       uses: actions/setup-node@v4
       with:
