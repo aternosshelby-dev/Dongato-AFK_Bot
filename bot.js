@@ -13,7 +13,7 @@ function createBot() {
     const bot = mineflayer.createBot({
         host: 'Parabailarlabambaa.aternos.me', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 54095,                // Puerto predeterminado de Minecraft
-        username: 'Dongato-AFK_Bot',    // Nombre genérico del bot/NPC dentro del juego
+        username: 'Raboot_356',    // Nombre genérico del bot/NPC dentro del juego
         version: false              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
     });
 
